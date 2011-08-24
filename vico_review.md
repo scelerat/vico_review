@@ -72,9 +72,11 @@ Vico was first released in May of 2011, and is presently at version 1.1. There a
 Room For Improvement
 --------------------
 
-For me the number-one improvement for the editing environment would be for insert mode to fully support typical Mac conventions. Mostly that means I can Option- and Command-delete just as in other apps.  
+The best (and likely a simple) improvement for the editing environment would be for insert mode to fully support typical Mac conventions. Mostly that means I can Option- and Command-delete just as in other apps. 
 
-Number two would be multi-file search (and replace). BBedit still rules the roost for multifile search among Mac text editors. Coda also has a nice Find in Files Command, and Textmate's works, at the very least. Vico doesn't even have the option. I sincerely hope that something is in the works in this regard for Vico. Right now when this becomes necessary (several times a day), I am either using a command line `find | xargs grep` command or switching into BBEdit. A dialog-box-based search and replace would also be a welcome addition.
+Also a high priority would be multi-file search (and replace). BBedit still rules the roost for multifile search among Mac text editors. Coda also has a nice Find in Files Command, and Textmate's works, at the very least. Vico doesn't even have the option. I sincerely hope that something is in the works in this regard for Vico. Right now when this becomes necessary (several times a day), I am either using a command line `find | xargs grep` command or switching into BBEdit. A dialog-box-based search and replace would also be a welcome addition.
+
+Another Mac OS convention is to have a Use Selection for Find command (typically mapped to Command-E). This populates the Find command with that text and makes the Find Next (typically mapped to Command-G -- presumably Find aGain) find the next instance of the selection. It also can populate the find dialogs for other applications (such as Safari) using an OS-level service. TextMate and BBEdit both do this. It would be nice if Vico did too, as well as the full complement of standard Mac OS Find commands and shortcuts.
 
 As of version 1.1 you cannot pipe the output of command-line commands into Vico. e.g. `$ cat vico_review.md | vico` switches from Terminal to Vico, but Vico does not open an anonymous window with the result of the pipe, as BBEdit and TextMate do.
 
@@ -84,6 +86,7 @@ I would love to see Mac OS "Lion" full-screen support.
 
 Vico is based on vi, not vim, the "enhanced" version of vi that ships with Mac OS and many other modern unix-y OSes. That means that several features you might associate with vi which are actually vim features, are not available, such as '(' and ')' to move to previous/next sentence, '{' and '}' to move to previous/next paragraph. It doesn't support multiple registers for yanks and deletes (the equivalent of multiple clipboards on the Mac). Plenty of other examples abound. It does have some vimlike features (e.g. multple undo) and support some Mac-equivalent movement commands in insert mode to make these shortcomings tolerable.
 
+
 Conclusion
 ----------
 
@@ -92,7 +95,7 @@ Vico is an interesting beast. Upon launch it immediately feels like a Mac applic
 
 One of the problems with a modal, text-command interface like vi's is that when learning the editor, you inevitably find yourself "stuck," and pulling up a quick reference card. How do I select multiple lines of text? How do I undo? How do I redo? What Vico does is provide enough of a Mac interface on vi that you never really get stuck as long as you remember how to get in and out of insert mode. Knowing that vi has much more power than is exposed by a basic Mac text editor is a motivating factor too, so I've found myself becoming a more powerful vi/vim user, which has benefits beyond just my Mac.
 
-I didn't have an overwhelmingly compelling reason to switch from TextMate other than I was tired of waiting for the author to fix the lame character-by-character Undo. Vico does that much right and more. Gaining split-window functionality is another immediate win over Textmate. It's worth noting that TextMate pulled me away from BBEdit for its themes, its bundles and its overall attractiveness. Vico has all of this.
+I didn't have an overwhelmingly compelling reason to switch from TextMate other than I was tired of waiting for the author to fix the lame character-by-character Undo. Vico does that much right and more. Gaining split-window functionality is another immediate win over Textmate. It's worth noting that TextMate pulled me away from BBEdit for its themes, its bundles and its overall attractiveness. Vico has all of these as well.
 
 I have been using Vico as my main text editor for almost three weeks now. I don't see myself moving back to Textmate (which was my main editor for the last 2 1/2 years). Before Textmate I used BBEdit for about thirteen or fourteen years, interspersed with flings with Alpha, Coda, NisusWriter (!), Xcode and MPW, performing the gamut of web development (markup, stylesheets, database, browser-side scripting, server-side programming). I've been using unixen throughout that time, so have been comfortable if not completely fluent with vi for a while.
 
@@ -124,4 +127,6 @@ Resources
 * [BBEdit](http://barebones.com/bbedit)
 * [Coda](http://panic.com/coda)
 
-© 2011, David Kurtz
+David Kurtz, 2001
+
+[![Creative Commons Attribution-NonCommercial-ShareAlike License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
