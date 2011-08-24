@@ -127,6 +127,6 @@ Resources
 * [BBEdit](http://barebones.com/bbedit)
 * [Coda](http://panic.com/coda)
 
-David Kurtz, 2001
+David Kurtz, 2011
 
 [![Creative Commons Attribution-NonCommercial-ShareAlike License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
