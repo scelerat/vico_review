@@ -3,6 +3,7 @@ Vico Review
 
 Vico is a text editor for Mac OS. Its signature features are its vi key bindings and its support for Textmate bundles. It has an attractive, Maclike interface, a project directory sidebar, a find-file search, and a find-symbol search.
 
+[Offical Vico website](http://www.vicoapp.com/)
 
 Mac-style editing vs vi-style editing
 -------------------------------------
