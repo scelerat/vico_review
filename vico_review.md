@@ -84,7 +84,7 @@ Textmate's block select/insert is one of its best features. It would be nice to 
 
 I would love to see Mac OS "Lion" full-screen support.
 
-Vico is based on vi, not vim, the "enhanced" version of vi that ships with Mac OS and many other modern unix-y OSes. That means that several features you might associate with vi which are actually vim features, are not available, such as '(' and ')' to move to previous/next sentence, '{' and '}' to move to previous/next paragraph. It doesn't support multiple registers for yanks and deletes (the equivalent of multiple clipboards on the Mac). Plenty of other examples abound. It does have some vimlike features (e.g. multple undo) and support some Mac-equivalent movement commands in insert mode to make these shortcomings tolerable.
+Vico is based on vi, not vim, the "enhanced" version of vi that ships with Mac OS and many other modern unix-y OSes. That means that several features you might associate with vi which are actually vim features, are not available, such as '(' and ')' to move to previous/next sentence. It doesn't support multiple registers for yanks and deletes (the equivalent of multiple clipboards on the Mac). Plenty of other examples abound. It does have some vimlike features (e.g. multple undo) and support some Mac-equivalent movement commands in insert mode to make these shortcomings tolerable.
 
 
 Conclusion
