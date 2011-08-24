@@ -129,4 +129,4 @@ Resources
 
 David Kurtz, 2001
 
-[![Creative Commons Attribution-NonCommercial-ShareAlike License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode)
+[![Creative Commons Attribution-NonCommercial-ShareAlike License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
