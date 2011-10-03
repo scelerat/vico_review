@@ -62,7 +62,7 @@ Find symbol works the same way. If you are in a structured syntax file that Vico
 Bugs/Annoyances
 ---------------
 
-Vico was first released in May of 2011, and is presently at version 1.1. There are still many rough edges. None of these are completely detrimental to using Vico, but I've run into them enough that they are worth  mentioning:
+Vico was first released in May of 2011, and is presently at version 1.2. There are still many rough edges. None of these are completely detrimental to using Vico, but I've run into them enough that they are worth  mentioning:
 
 * Syntax coloring is occasionally spotty. It seems there are times where the syntax parser for the given language hasn't completely slurped the file, and only portions are colored (and the Find Symbol command only finds symbols up to that point). Fixing this requires choosing a different syntax setting for the file and then re-choosing the original syntax.
 * Up-arrow keys sometimes stop working in insert mode. I don't know why. Switching to command mode and then back makes them work again.
