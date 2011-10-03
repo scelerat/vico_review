@@ -65,6 +65,7 @@ Bugs/Annoyances
 Vico was first released in May of 2011, and is presently at version 1.1. There are still many rough edges. None of these are completely detrimental to using Vico, but I've run into them enough that they are worth  mentioning:
 
 * Syntax coloring is occasionally spotty. It seems there are times where the syntax parser for the given language hasn't completely slurped the file, and only portions are colored (and the Find Symbol command only finds symbols up to that point). Fixing this requires choosing a different syntax setting for the file and then re-choosing the original syntax.
+* Up-arrow keys sometimes stop working in insert mode. I don't know why. Switching to command mode and then back makes them work again.
 * Quasi-crashes. Vico will stop providing visual feedback for something like a Save operation, and you're left wondering if the last save command you issued worked. I.e. you still see a dot in the middle of the Close button and some other commands don't appear to work. This has happened when I have multiple windows open, so it could be that a reference to a window is being lost somehow. In the instances I've seen it happen, I've been able to spot-check the file on the command line, find that it has in fact been saved, and then Quit and restart Vico. 
 * Vi syntax coloring mucks up quotes inside comments. A shortcoming not limited to vico, a single quote (i.e. an apostrophe) inside a commented block of text can throw off the syntax parser to the extent that entire blocks of code appear as quoted text, when they are in fact not.
 
@@ -83,7 +84,7 @@ Textmate's block select/insert is one of its best features. It would be nice to 
 
 I would love to see Mac OS "Lion" full-screen support.
 
-Vico is based on vi, not vim, the "enhanced" version of vi that ships with Mac OS and many other modern unix-y OSes. That means that several features you might associate with vi which are actually vim features, are not available, such as '(' and ')' to move to previous/next sentence. It doesn't support multiple registers for yanks and deletes (the equivalent of multiple clipboards on the Mac). Plenty of other examples abound. It does have some vimlike features (e.g. multple undo) and support some Mac-equivalent movement commands in insert mode to make these shortcomings tolerable.
+Vico is based on vi, not vim, the "enhanced" version of vi that ships with Mac OS and many other modern unix-y OSes. That means that several features you might associate with vi which are actually vim features, are not available, such as '(' and ')' to move to previous/next sentence. Plenty of other examples abound. It does have some vimlike features (e.g. multple undo) and support some Mac-equivalent movement commands in insert mode to make these shortcomings tolerable.
 
 
 Conclusion
